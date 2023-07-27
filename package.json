@@ -22,8 +22,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --minify",
     "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "publish": "npm run build && npm run publish"
+    "coverage": "vitest run --coverage"
 
   },
   "repository": {
