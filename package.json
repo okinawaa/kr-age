@@ -1,6 +1,6 @@
 {
   "name": "kr-age",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "korean age",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
