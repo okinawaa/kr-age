@@ -1,0 +1,42 @@
+{
+  "name": "kr-age",
+  "version": "0.0.1",
+  "description": "korean age",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --minify",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanhyukPark-Tech/ko-age.git"
+  },
+  "author": "ChanhyukPark-Tech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChanhyukPark-Tech/ko-age/issues"
+  },
+  "homepage": "https://github.com/ChanhyukPark-Tech/ko-age#readme",
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  }
+}
