@@ -4,7 +4,7 @@ const 출생시기 = {
 } as const;
 
 // 생년월일과 성별코드를 받아서 나이를 계산하는 함수
-export function calculateAgeFromBirthdate6AndGenderCode(
+export function calculateAgeFromBirthDate6AndGenderCode(
   birthDate6: string,
   genderCode: (typeof 출생시기)[keyof typeof 출생시기][number]
 ): number {
