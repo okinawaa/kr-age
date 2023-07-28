@@ -27,14 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChanhyukPark-Tech/ko-age.git"
+    "url": "git+https://github.com/okinawaa/ko-age.git"
   },
-  "author": "ChanhyukPark-Tech",
+  "author": "okinawaa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChanhyukPark-Tech/ko-age/issues"
+    "url": "https://github.com/okinawaa/ko-age/issues"
   },
-  "homepage": "https://github.com/ChanhyukPark-Tech/ko-age#readme",
+  "homepage": "https://github.com/okinawaa/ko-age#readme",
   "devDependencies": {
     "tsup": "^7.1.0",
     "typescript": "^5.1.6",
